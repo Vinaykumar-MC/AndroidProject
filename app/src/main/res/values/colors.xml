@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="naviBlue">#0F1745</color>
+    <color name="gray">#7C7979</color>
+    <color name="bluegreen">#89BFD6</color>
+    <color name="blue">#0461B7</color>
+    <color name="yellow">#FFF500</color>
+    <color name="red">#E60F0F</color>
+     <color name="weighingRv">#B7C9D1</color>
+    <color name="header">#043A62</color>
+    <color name="cardback">#E8F6FC</color>
+</resources>

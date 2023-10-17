@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/weightDesign"
+        app:cardCornerRadius="10dp"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp">
+
+<!--       <RadioGroup-->
+<!--           android:layout_width="wrap_content"-->
+<!--           android:layout_height="wrap_content">-->
+
+<!--           <RadioButton-->
+<!--               android:id="@+id/radioButton"-->
+<!--               android:layout_width="34dp"-->
+<!--               android:layout_height="30dp"-->
+<!--               android:layout_marginLeft="30dp"-->
+<!--               android:layout_marginTop="20dp" />-->
+<!--       </RadioGroup>-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            app:cardBackgroundColor="@color/weighingRv"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/machinName"
+                android:layout_width="153dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="NTC  - 1"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="20dp"
+                android:id="@+id/avail"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:text=" Available to connect"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
